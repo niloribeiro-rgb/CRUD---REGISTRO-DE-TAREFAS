@@ -1,7 +1,7 @@
 const express = require("express");
 const atividades = require("./dados");
 const app = express();
-const PORT = 4000;
+const PORT = 3900;
 
 app.use(express.json());
 app.use(express.static("public"));
